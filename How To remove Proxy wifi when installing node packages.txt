@@ -1,0 +1,11 @@
+How to disable proxy wifi when installing node packages 
+
+	Run:
+ npm config rm http-proxy
+
+	OR 
+ Comment the <user_dir>/.npmrc file using vs code
+It may look something like this after comenting it:
+			   #legacy-peer-deps=true
+			   #proxy=http://EGERNETegerton536@172.16.63.3:3128
+			   #https-proxy=http://EGERNETegerton536@172.16.63.3:3128
